@@ -1,0 +1,40 @@
+<div>
+    <div class="border-b pb-3 shadow-md">
+        <h2 class="text-center font-medium text-xl">Agendar Citas</h2>
+    </div>
+
+  
+
+    <div class="flex justify-center">
+        <div class="relative z-0 mt-5">
+            <input [(ngModel)]="paciente.nombre"  type="text" id="nombres" class=" w-56 block py-2.5 px-0  text-sm text-black bg-transparent border-0 border-b-2 border-cyan-800 appearance-none dark:text-black dark:border-cyan-800 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-800 peer" placeholder=" " />
+            <label for="nombres" class="lbl_cita">Nombres:</label>
+        </div>
+    </div>
+    <div class="flex justify-center">
+        <div class="relative z-0 mt-5">
+            <input [(ngModel)]="paciente.apellido" type="text" id="apellidos" class=" w-56 block py-2.5 px-0  text-sm text-black bg-transparent border-0 border-b-2 border-cyan-800 appearance-none dark:text-black dark:border-cyan-800 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-800 peer" placeholder=" " />
+            <label for="apellidos" class="lbl_cita">Apellidos:</label>
+        </div>
+    </div>
+    <div class="flex justify-center">
+        <div class="relative z-0 mt-5">
+            <input [(ngModel)]="paciente.celular" type="text" id="numero" class=" w-56 block py-2.5 px-0  text-sm text-black bg-transparent border-0 border-b-2 border-cyan-800 appearance-none dark:text-black dark:border-cyan-800 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-800 peer" placeholder=" " />
+            <label for="numero" class="lbl_cita">Numero Cel:</label>
+        </div>
+    </div>
+    <div class="flex justify-center">
+
+        <div class="relative z-0 mt-5">
+            <textarea type="text" id="celular" cols="2" class=" w-56 block py-2.5 px-0  text-sm text-black bg-transparent border-0 border-b-2 border-cyan-800 appearance-none dark:text-black dark:border-cyan-800 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-800 peer" placeholder=" "></textarea>
+            <label for="celular" class="lbl_cita">Motivos de la cita:</label>
+        </div>
+    </div>
+
+  <div class="flex justify-center">
+    <div class="mt-10 border py-1 px-20 rounded-md border-teal-900 hover:bg-teal-800 hover:text-white">
+        <input type="button" class="" value="Crear Cita">
+    </div>
+  </div>
+</div>
+<app-sidebar/>

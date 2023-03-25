@@ -1,0 +1,168 @@
+<div>
+    <div class="border border-solid pb-3 shadow-sm">
+        <h2 class="text-center text-xl font-semibold">Perfil</h2>
+    </div>
+    
+
+    <div class="flex justify-center">
+           
+            <div class="relative z-0 mt-20">
+                <input type="text" id="nombre" class=" w-56 block py-2.5 px-0  text-sm text-black bg-transparent border-0 border-b-2 border-cyan-800 appearance-none dark:text-black dark:border-cyan-800 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-800 peer" placeholder=" " [(ngModel)]="paciente.nombre"/>
+                <label for="nombre" class="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-800 peer-focus:dark:text-cyan-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Nombre:</label>
+            </div>
+              
+              
+    </div>
+    <div class="flex justify-center">
+        <div class="relative z-0 mt-5">
+            <input type="text" id="apellido" class=" w-56 block py-2.5 px-0  text-sm text-black bg-transparent border-0 border-b-2 border-cyan-800 appearance-none dark:text-black dark:border-cyan-800 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-800 peer" placeholder=" " [(ngModel)]="paciente.apellido"/>
+            <label for="apellido" class="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-800 peer-focus:dark:text-cyan-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Apellidos:</label>
+        </div>
+    </div>
+    <div class="flex justify-center">
+        <div class="relative z-0 mt-5">
+            <input type="text" id="email" class=" w-56 block py-2.5 px-0  text-sm text-black bg-transparent border-0 border-b-2 border-cyan-800 appearance-none dark:text-black dark:border-cyan-800 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-800 peer" placeholder=" " [(ngModel)]="paciente.email"/>
+            <label for="email" class="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-800 peer-focus:dark:text-cyan-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Correo Electrónico:</label>
+        </div>
+    </div>
+    <div class="flex justify-center">
+
+        <div class="relative z-0 mt-5">
+            <input type="text" id="celular" class=" w-56 block py-2.5 px-0  text-sm text-black bg-transparent border-0 border-b-2 border-cyan-800 appearance-none dark:text-black dark:border-cyan-800 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-800 peer" placeholder=" " [(ngModel)]="paciente.celular"/>
+            <label for="celular" class="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-800 peer-focus:dark:text-cyan-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Celular:</label>
+        </div>
+    </div>
+    <div class="flex justify-center">
+        
+        <div class="relative z-0 mt-5">
+            <input type="text" id="edad" class=" w-56 block py-2.5 px-0  text-sm text-black bg-transparent border-0 border-b-2 border-cyan-800 appearance-none dark:text-black dark:border-cyan-800 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-800 peer" placeholder=" " [(ngModel)]="paciente.edad"/>
+            <label for="edad" class="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-800 peer-focus:dark:text-cyan-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Edad:</label>
+        </div>
+    </div>
+    <div class="flex justify-center">
+        <!-- <input class="mt-5 border-b-2 px-3 py-1 border-cyan-800 place-content-center focus:outline-none w-56" type="text" [(ngModel)]="paciente.sexo"  placeholder="Sexo"> -->
+        <div class="relative z-0 mt-5">
+            <input type="text" id="sexo" class=" w-56 block py-2.5 px-0  text-sm text-black bg-transparent border-0 border-b-2 border-cyan-800 appearance-none dark:text-black dark:border-cyan-800 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-800 peer" placeholder=" " [(ngModel)]="paciente.sexo"/>
+            <label for="sexo" class="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-800 peer-focus:dark:text-cyan-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Sexo:</label>
+        </div>
+    </div>
+    <div class="flex justify-center">
+        
+    <div class="relative z-0 mt-5">
+        <select id="sangre" name="estado_civil" class=" w-56 block py-2.5 px-0  text-sm text-black bg-transparent border-0 border-b-2 border-cyan-800 appearance-none dark:text-black dark:border-cyan-800 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-800 peer" [(ngModel)]="paciente.tipoSangre">
+            <option value="">Seleccione un tipo de sangre</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+        </select>
+        <label for="sangre" class="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-800 peer-focus:dark:text-cyan-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Estado Civil:</label>
+    </div>
+
+        
+    </div>
+    <div class="flex justify-center">
+        <div class="relative z-0 mt-5">
+            <select id="estado_civil" name="estado_civil" class=" w-56 block py-2.5 px-0  text-sm text-black bg-transparent border-0 border-b-2 border-cyan-800 appearance-none dark:text-black dark:border-cyan-800 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-800 peer" [(ngModel)]="paciente.estadoCivil">
+                <option value="0">Seleccione su Estado Civil</option>
+                <option value="soltero">Soltero/a</option>
+                <option value="casado">Casado/a</option>
+                <option value="divorciado">Divorciado/a</option>
+                <option value="viudo">Viudo/a</option>
+                </select>
+                <label for="domicilio" class="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-800 peer-focus:dark:text-cyan-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Estado Civil:</label>
+
+        </div>
+        
+    </div>
+    <div class="flex justify-center">
+        <!-- <textarea class="mt-5 border-b-2 px-3 py-1 border-cyan-800 place-content-center focus:outline-none w-56" type="text" cols="2" placeholder="Domicilio" [(ngModel)]="paciente.domicilio"></textarea> -->
+        <div class="relative z-0 mt-5">
+            <textarea type="text" id="domicilio" class=" w-56 block py-2.5 px-0  text-sm text-black bg-transparent border-0 border-b-2 border-cyan-800 appearance-none dark:text-black dark:border-cyan-800 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-800 peer" placeholder=" " [(ngModel)]="paciente.domicilio"></textarea>
+            <label for="domicilio" class="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-800 peer-focus:dark:text-cyan-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Domicilio:</label>
+        </div>
+    </div>
+    <div class="flex justify-center">
+        <!-- <input class="mt-5 border-b-2 px-3 py-1 border-cyan-800 place-content-center focus:outline-none w-56" type="number" [(ngModel)]="paciente.telCasa" placeholder="Tel. Casa"> -->
+        <div class="relative z-0 mt-5">
+            <input type="text" id="telCasa" class=" w-56 block py-2.5 px-0  text-sm text-black bg-transparent border-0 border-b-2 border-cyan-800 appearance-none dark:text-black dark:border-cyan-800 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-800 peer" placeholder=" " [(ngModel)]="paciente.telCasa"/>
+            <label for="telCasa" class="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-800 peer-focus:dark:text-cyan-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Tel. Casa:</label>
+        </div>
+    </div>
+  
+    <div class="flex justify-center">
+        <!-- <input class="mt-5 border-b-2 px-3 py-1 border-cyan-800 place-content-center focus:outline-none w-56" type="text" [(ngModel)]="paciente.ocupacion" placeholder="Ocupación"> -->
+        <div class="relative z-0 mt-5">
+            <input type="text" id="ocupacion" class=" w-56 block py-2.5 px-0  text-sm text-black bg-transparent border-0 border-b-2 border-cyan-800 appearance-none dark:text-black dark:border-cyan-800 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-800 peer" placeholder=" " [(ngModel)]="paciente.ocupacion"/>
+            <label for="ocupacion" class="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-800 peer-focus:dark:text-cyan-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Ocupación</label>
+        </div>
+    </div>
+    <div class="flex justify-center">
+        <!-- <input class="mt-5 border-b-2 px-3 py-1 w-56 border-cyan-800 place-content-center focus:outline-none " type="date" [(ngModel)]="paciente.fechaNacimiento" placeholder="Fecha Nacimiento" readonly> -->
+        <div class="relative z-0 mt-5">
+            <input type="date" id="fecha" class=" w-56 block py-2.5 px-0  text-sm text-black bg-transparent border-0 border-b-2 border-cyan-800 appearance-none dark:text-black dark:border-cyan-800 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-800 peer" placeholder=" " [(ngModel)]="paciente.fechaNacimiento"/>
+            <label for="fecha" class="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-800 peer-focus:dark:text-cyan-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Fecha de nacimiento:</label>
+        </div>
+    </div>
+    <div class="flex justify-center">
+        <div class="relative z-0 mt-5">
+            <select class=" w-56 block py-2.5 px-0  text-sm text-black bg-transparent border-0 border-b-2 border-cyan-800 appearance-none dark:text-black dark:border-cyan-800 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-800 peer" [(ngModel)]="paciente.lugarNacimiento">
+                <option value="0" selected>Selecciona un estado</option>
+                <option value="Aguascalientes">Aguascalientes</option>
+                <option value="Baja California">Baja California</option>
+                <option value="Baja California Su">Baja California Sur</option>
+                <option value="Campeche">Campeche</option>
+                <option value="Chiapas">Chiapas</option>
+                <option value="Chihuahua">Chihuahua</option>
+                <option value="Coahuila">Coahuila</option>
+                <option value="Colima">Colima</option>
+                <option value="Ciudad de México">Ciudad de México</option>
+                <option value="Durango">Durango</option>
+                <option value="Guanajuato">Guanajuato</option>
+                <option value="Guerrero">Guerrero</option>
+                <option value="Hidalgo">Hidalgo</option>
+                <option value="Jalisco">Jalisco</option>
+                <option value="México">México</option>
+                <option value="Michoacán">Michoacán</option>
+                <option value="Morelos">Morelos</option>
+                <option value="Nayarit">Nayarit</option>
+                <option value="Nuevo León">Nuevo León</option>
+                <option value="Oaxaca">Oaxaca</option>
+                <option value="Puebla">Puebla</option>
+                <option value="Querétaro">Querétaro</option>
+                <option value="Quintana Ro">Quintana Roo</option>
+                <option value="San Luis Potosí">San Luis Potosí</option>
+                <option value="Sinaloa">Sinaloa</option>
+                <option value="Sonora">Sonora</option>
+                <option value="Tabasco">Tabasco</option>
+                <option value="Tamaulipas">Tamaulipas</option>
+                <option value="Tlaxcala">Tlaxcala</option>
+                <option value="Veracruz">Veracruz</option>
+                <option value="Yucatán">Yucatán</option>
+                <option value="Zacatecas">Zacatecas</option>
+              </select>
+              <label for="fecha" class="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-800 peer-focus:dark:text-cyan-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Lugar de Nacimiento:</label>
+        </div>
+       
+                
+                  
+        <!-- </select> -->
+    </div>
+    <div class="flex justify-center">
+        <!-- <textarea class="mt-5 border-b-2 px-3 py-1 border-cyan-800 place-content-center focus:outline-none w-56" cols="3" placeholder="¿Cómo se enteró de la clínica?" [(ngModel)]="paciente.comoSeEntero"></textarea> -->
+        <div class="relative z-0 mt-5">
+            <textarea type="text" id="comoSeEntero" class=" w-56 block py-2.5 px-0  text-sm text-black bg-transparent border-0 border-b-2 border-cyan-800 appearance-none dark:text-black dark:border-cyan-800 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-800 peer" placeholder=" " [(ngModel)]="paciente.comoSeEntero"></textarea>
+            <label for="comoSeEntero" class="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-800 peer-focus:dark:text-cyan-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Como se entero:</label>
+        </div>
+    </div>
+    <div class="flex justify-center mb-32">
+        <input type="button" class="mt-5 py-2 px-20 font-semibold border-cyan-800 hover:bg-teal-800 hover:text-white border" value="Actualizar" (click)="modificarPaciente()">
+    </div>
+    
+
+</div>
+<app-sidebar/>

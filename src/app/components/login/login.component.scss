@@ -1,0 +1,25 @@
+
+.linea_abajo{
+    @apply my-6 border-gray-300 w-full;
+}
+
+.titulo{
+    @apply text-3xl font-bold text-center;
+}
+
+.label_login{
+    @apply block;
+}
+
+.input_login{
+    @apply w-full  rounded-lg px-4 py-3 mt-2 border focus:border-b-emerald-700 focus:bg-white focus:outline-none;
+}
+
+
+.btn_login{
+    @apply w-full block bg-teal-700 hover:bg-teal-600 rounded-lg px-3 py-2 mt-6 font-semibold text-white focus:bg-teal-500 focus:outline-none;
+}
+
+.lbl_password{
+    @apply font-semibold text-gray-700 hover:text-green-700 focus:text-green-700 focus:outline-none;
+}

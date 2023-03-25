@@ -1,0 +1,18 @@
+<div>
+    <div class="border-b pb-3 shadow-md container">
+        <h2 class="text-center font-medium text-xl">Citas De Hoy</h2>
+    </div>
+
+
+    <div class="mb-28">
+      <div *ngFor="let item of pacientes | async">
+        <div *ngIf="item.fecha_cita == fechaFormateada"
+             class="bg-gray-200 rounded-lg shadow-lg p-2 mx-2 my-3 max-w-md text-center border" id="card">
+          <p class="text-start"><strong>Fecha de Cita: </strong>{{item.fecha_cita}}</p>
+          <p class="text-start"><strong>Motivo: </strong> {{item.descripcion}}</p>
+          <p class="text-start"><strong>Estatus: </strong>{{item.estatusCita}}</p>
+        </div>
+      </div>
+    </div>
+</div>
+<app-sidebar/>

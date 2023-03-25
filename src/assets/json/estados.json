@@ -1,0 +1,128 @@
+[
+    {
+      "nombre": "Aguascalientes",
+      "abreviatura": "AGS"
+    },
+    {
+      "nombre": "Baja California",
+      "abreviatura": "BC"
+    },
+    {
+      "nombre": "Baja California Sur",
+      "abreviatura": "BCS"
+    },
+    {
+      "nombre": "Campeche",
+      "abreviatura": "CAM"
+    },
+    {
+      "nombre": "Chiapas",
+      "abreviatura": "CHIS"
+    },
+    {
+      "nombre": "Chihuahua",
+      "abreviatura": "CHIH"
+    },
+    {
+      "nombre": "Ciudad de México",
+      "abreviatura": "CDMX"
+    },
+    {
+      "nombre": "Coahuila",
+      "abreviatura": "COAH"
+    },
+    {
+      "nombre": "Colima",
+      "abreviatura": "COL"
+    },
+    {
+      "nombre": "Durango",
+      "abreviatura": "DGO"
+    },
+    {
+      "nombre": "Estado de México",
+      "abreviatura": "MEX"
+    },
+    {
+      "nombre": "Guanajuato",
+      "abreviatura": "GTO"
+    },
+    {
+      "nombre": "Guerrero",
+      "abreviatura": "GRO"
+    },
+    {
+      "nombre": "Hidalgo",
+      "abreviatura": "HGO"
+    },
+    {
+      "nombre": "Jalisco",
+      "abreviatura": "JAL"
+    },
+    {
+      "nombre": "Michoacán",
+      "abreviatura": "MICH"
+    },
+    {
+      "nombre": "Morelos",
+      "abreviatura": "MOR"
+    },
+    {
+      "nombre": "Nayarit",
+      "abreviatura": "NAY"
+    },
+    {
+      "nombre": "Nuevo León",
+      "abreviatura": "NL"
+    },
+    {
+      "nombre": "Oaxaca",
+      "abreviatura": "OAX"
+    },
+    {
+      "nombre": "Puebla",
+      "abreviatura": "PUE"
+    },
+    {
+      "nombre": "Querétaro",
+      "abreviatura": "QRO"
+    },
+    {
+      "nombre": "Quintana Roo",
+      "abreviatura": "QR"
+    },
+    {
+      "nombre": "San Luis Potosí",
+      "abreviatura": "SLP"
+    },
+    {
+      "nombre": "Sinaloa",
+      "abreviatura": "SIN"
+    },
+    {
+      "nombre": "Sonora",
+      "abreviatura": "SON"
+    },
+    {
+      "nombre": "Tabasco",
+      "abreviatura": "TAB"
+    },
+    {
+      "nombre": "Tamaulipas",
+      "abreviatura": "TAMPS"
+    },
+    {
+      "nombre": "Tlaxcala",
+      "abreviatura": "TLAX"
+    },
+    {
+      "nombre": "Veracruz",
+      "abreviatura": "VER"
+    },
+    {
+      "nombre": "Yucatán",
+      "abreviatura": "YUC"
+    }
+    
+]
+  

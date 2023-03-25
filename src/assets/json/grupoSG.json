@@ -1,0 +1,34 @@
+[
+    {
+        "grupo": "A+",
+        "factor": "Rh+"
+    },
+    {
+        "grupo": "A-",
+        "factor": "Rh-"
+    },
+    {
+        "grupo": "B+",
+        "factor": "Rh+"
+    },
+    {
+        "grupo": "B-",
+        "factor": "Rh-"
+    },
+    {
+        "grupo": "AB+",
+        "factor": "Rh+"
+    },
+    {
+        "grupo": "AB-",
+        "factor": "Rh-"
+    },
+    {
+        "grupo": "O+",
+        "factor": "Rh+"
+    },
+    {
+        "grupo": "O-",
+        "factor": "Rh-"
+    }
+]

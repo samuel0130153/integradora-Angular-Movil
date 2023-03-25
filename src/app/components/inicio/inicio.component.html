@@ -1,0 +1,56 @@
+<div>
+    <div class=" border pb-3 mb-4 shadow-md">
+        <h2 class="text-xl font-medium text-center">Inicio</h2>
+    </div>
+
+    <div class="px-5">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 text-center">Senses</div>
+              <p class="text-gray-700 text-base text-justify">
+                Bienvenida(o) {{paciente.nombre + ' ' +  paciente.apellido}}  Senses es una aplicación que ofrece un servicio de alta calidad en el cuidado de la salud dental, proporcionando una experiencia única y satisfactoria, la salud dental es una prioridad.
+              
+              </p>
+            </div>
+           
+          </div>
+    </div>
+
+    <div class="px-1 mt-5">
+        <h2 class="text-center font-medium text-2xl">Nuestras Instalaciones</h2>
+
+        <div class="w-full flex gap-3 snap-x overflow-x-auto py-3" bis_skin_checked="1">
+            <div class="snap-start scroll-ml-3 shrink-0 relative first:pl-6 last:pr-[calc(100%-21.5rem)]" bis_skin_checked="1" *ngFor="let image of images">
+              <div class="bg-stripes-pink w-6 absolute top-0 left-0 bottom-0" bis_skin_checked="1"></div>
+              <img class="relative shrink-0 w-80 h-40 rounded-lg shadow-xl bg-white" [src]="image" alt="Imagenes de consultori">
+            </div>
+          </div>
+    </div>
+
+    <div class="shadow-lg rounded-lg bg-white overflow-hidden mx-4 my-6 sm:mx-6 sm:my-8 md:mx-8 md:my-10 lg:mx-12 lg:my-14">
+        <!-- Imagen del consultorio -->
+        <img src="../../../assets/Img/inicio/fachada-min.jpeg" alt="Imagen del consultorio" class="w-full h-56 object-cover">
+        
+        <!-- Información del consultorio -->
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Consultorio Senses</div>
+          <p class="text-gray-700 text-base text-justify">
+            Somos un equipo de profesionales en el cuidado dental, comprometidos en brindarle la mejor atención y calidad en cada uno de nuestros servicios. Contamos con tecnología de punta para garantizar el bienestar de nuestros pacientes.
+          </p>
+        </div>
+        
+        <!-- Detalles de contacto -->
+        <div class="px-6 py-4 mb-10">
+          <p class="text-gray-700 text-base"><i class="bi bi-geo-alt-fill"></i> <strong>Dirección:</strong>  Av. José María Morelos 2147, Arcos Vallarta, 44130 Guadalajara, Jal.</p>
+          <p class="text-gray-700 text-base"><i class="bi bi-telephone"></i><strong>Teléfono:</strong>+52 33 302333 00</p>
+          <p class="text-gray-700 text-base"><i class="bi bi-envelope"></i><strong>Correo electrónico:</strong>  info@sensesdentistas.com</p>
+        </div>
+        
+       
+
+
+   
+
+</div>
+
+<app-sidebar />

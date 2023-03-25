@@ -1,0 +1,78 @@
+
+  <body class="font-['Poppins'] text-fontColor" >
+    <header class="w-full fixed bottom-8 left-O z-50" id="header">
+      <nav *ngIf="ServicioLogin.eslogueado()" class="h-14 flex justify-between items-center bg-teal-900 container mx-auto px-3 rounded-lg"> 
+        <a routerLink="/inicio" class="font-medium text-white ">
+          Senses 
+        </a>
+        <div class="mt-3 flex justify-center items-center">
+          <img src="../../../assets/Img/Menu/logo_blnc.png" alt="" class="pb-3 " width="40px" height="40px">
+        </div>
+        
+        <div #navMenu id="nav-menu" class="transition-[bottom] duration-[.3s] fixed w-[88%] left-0 right-0 bottom-[-400px] my-0 mx-auto py-8 pl-6 pr-20 bg-teal-800 rounded-lg shadow-md">
+          <ul class="grid grid-cols-[repeat(3,max-content)] ml-4 justify-center gap-y-8 gap-x-12 ">
+            <li>
+              <a routerLink="/inicio" class="flex flex-col items-center gap-y-1 text-sm text-white">
+                <i class="bi bi-house text-white text-xl"></i>  Inicio
+              </a>
+            </li>
+
+            <li>
+              <a routerLink="/citas" class="flex flex-col items-center gap-y-1 text-sm text-white">
+                <i class="bi bi-calendar-plus text-white text-xl"></i>Agendar cita
+              </a>
+            </li>
+
+            <li>
+              <a routerLink="/archivadas" class="flex flex-col items-center gap-y-1 text-sm text-white">
+                <i class="bi bi-calendar-check text-white text-xl"></i>Ver citas
+              </a>
+            </li>
+
+            <li>
+              <a routerLink="/perfil" class="flex flex-col items-center gap-y-1 text-sm text-white">
+                <i class="bi bi-person text-white text-xl"></i>Perfil
+              </a>
+            </li>
+
+            <li>
+              <a routerLink="/informacion" class="flex flex-col items-center gap-y-1 text-sm text-white">
+                <i class="bi bi-info-circle text-white text-xl"></i>Expediente
+              </a>
+            </li>
+            <li *ngIf="ServicioLogin.suNivel()" >
+              <a routerLink="/Pacientes" class="flex flex-col items-center gap-y-1 text-sm text-white">
+                <i class="bi bi-person-check-fill text-white text-xl"></i>Pacientes
+              </a>
+            </li>
+            <li *ngIf="ServicioLogin.suNivel()">
+              <a routerLink="/citasHoy" class="flex flex-col items-center gap-y-1 text-sm text-white">
+                <i class="bi bi-calendar3-event text-white text-xl"></i>Cita Hoy
+              </a>
+            </li>
+            <li *ngIf="ServicioLogin.suNivel()">
+              <a routerLink="/calendario" class="flex flex-col items-center gap-y-1 text-sm text-white">
+                <i class="bi bi-calendar2 text-white text-xl"></i>Calendario
+              </a>
+            </li>
+            <li>
+              <a (click)="ServicioLogin.logout()" class="flex flex-col items-center gap-y-1 text-sm text-white">
+                <i class="bi bi-box-arrow-right text-white text-xl"></i>Cerrar Sesión
+              </a>
+            </li>
+
+           
+          </ul>
+          
+          <div class="absolute right-6 bottom-3 text-xl cursor-pointer" id="nav-close" #navClose>
+            <i class="bi bi-x-lg text-white"></i>
+          </div>
+          
+        </div>
+        <div class="flex text-xl cursor-pointer" id="nav-toggle" #navToggle>
+          <i class="bi bi-list text-white"></i>
+        </div>
+      </nav>
+    </header>
+    
+  </body>

@@ -1,0 +1,46 @@
+
+<section>
+    <div class="flex justify-center mt-4">
+        <img src="../../../assets/Img/imgLogin/logo-login.jpeg" height="100px" width="100px"  alt="">
+    </div>
+    <div class="bg-white flex md:mx-auto items-center justify-center md:max-w-md lg:max-w-full w-full md:w-1/2 xl:w-1/3 px-5">
+        
+        <div class="w-full h-100">
+            
+            <h1 class="text-3xl md:text-2xl font-bold leading-tight mt-4 flex justify-center">Registro</h1>
+            <div class="mt-6 w-full">
+                <div>
+                    <label class="label_login" for="">Correo:</label>
+                    <input [(ngModel)]="usuario.email" pInputText [style]="{'width':'100%'}"   class=" mb-3" autocomplete autofocus required type="email" name="email" id="email" placeholder="Aquí va tu correo">
+                </div>
+                <div class="mt-4l ">
+                    <label class="mb-3 mt-3" for="">Contraseña</label>
+                    <p-password [(ngModel)]="usuario.password"  id="password1" type="password"  placeholder="Password" [style]="{'width':'100%'}"  [inputStyle]="{'width':'100%'}" [toggleMask]="true" required  type="password" name="password" id="password" placeholder="Aquí va tu contraseña"/>
+                    
+                </div><br>
+                <div class="mt-4l ">
+                    <label class="mb-3 mt-3" for="">Confirmar contraseña</label>
+                    <p-password [(ngModel)]="validacion.valPassword"  id="password1" type="password"   placeholder="Password" [inputStyle]="{'width':'100%'}"  [style]="{'width':'100%'}"   [toggleMask]="true" required  type="password" name="password" id="password" placeholder="Aquí va tu contraseña"/>
+                    
+                </div>
+                <div class="text-right mt-2 ">
+                    <a href="#" class="lbl_password tx-sm ">Olvidaste tu contraseña?</a>
+                </div>
+                <input (click)="registro()" label="Success" class="btn_login" type="button"  value="Siguiente">
+            </div>
+                
+
+            <hr class="linea_abajo">
+
+            <p class="flex justify-center">
+                Ya tienes una cuenta?
+                <a routerLink="/" class="text-teal-600 font-semibold" >
+                    Iniciar sesión
+                </a>
+            </p>
+            <p class="text-sm text-gray-500 justify-center flex mt-7 ">
+                &copy; 2023 Encrypted Minds
+            </p>
+        </div>
+    </div>
+</section>

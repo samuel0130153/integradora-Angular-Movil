@@ -1,0 +1,45 @@
+<section>
+    <div class="flex justify-center mt-4">
+        <img src="../../../assets/Img/imgLogin/logo-login.jpeg" height="100px" width="100px" alt="">
+    </div>
+    <div
+        class="bg-white flex md:mx-auto items-center justify-center md:max-w-md lg:max-w-full w-full md:w-1/2 xl:w-1/3 px-5">
+
+        <div class="w-full h-100">
+
+            <h1 class="text-3xl md:text-2xl font-bold leading-tight mt-16 flex justify-center">Iniciar Sesión</h1>
+            <div class="mt-6 w-full">
+                <div>
+                    <label class="label_login" for="">Correo:</label>
+                    <input class="mb-3" pInputText [style]="{'width':'100%'}" [(ngModel)]="usuario.email" autocomplete
+                        autofocus required type="email" name="email" id="email" placeholder="Aquí va tu correo">
+                </div>
+                <div class="mt-4l ">
+                    <label class="label_login" for="">Contraseña</label>
+                    <p-password id="password1" type="password" placeholder="Password"
+                        [style]="{'width':'100%',  'margin-bottom':'20px'}" [inputStyle]="{'width':'100%'}"
+                        [toggleMask]="true" [feedback]="false" [(ngModel)]="usuario.password" required type="password"
+                        name="password" id="password" placeholder="Aquí va tu contraseña" />
+
+                </div>
+                <div class="text-right mt-2 ">
+                    <a href="#" class="lbl_password tx-sm ">Olvidaste tu contraseña?</a>
+                </div>
+                <input class="btn_login" type="button" (click)="login()" value="Entrar">
+            </div>
+
+
+            <hr class="linea_abajo">
+
+            <p class="flex justify-center">
+                Necesitas una cuenta? 
+                <a routerLink="/registro" class="text-teal-600 font-semibold">
+                    Crear Cuenta
+                </a>
+            </p>
+            <p class="text-sm text-gray-500 justify-center flex mt-24 ">
+                &copy; 2023 Encrypted Minds
+            </p>
+        </div>
+    </div>
+</section>

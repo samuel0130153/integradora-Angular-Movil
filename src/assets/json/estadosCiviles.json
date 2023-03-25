@@ -1,0 +1,20 @@
+[
+      {
+        "id": 1,
+        "nombre": "Soltero/a"
+      },
+      {
+        "id": 2,
+        "nombre": "Casado/a"
+      },
+      {
+        "id": 3,
+        "nombre": "Viudo/a"
+      },
+      {
+        "id": 4,
+        "nombre": "Divorciado/a"
+      }
+]
+  
+  
